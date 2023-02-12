@@ -31,7 +31,7 @@ class OrangeTaskTests : TestsValues() {
         //PersonDetailScreen
         composeTestRule.onNodeWithText(personSergeyProkopyevTextView).assertIsDisplayed() //check if name of person is displayed
         composeTestRule.onNodeWithContentDescription(imagePersonContentDesc).assertIsDisplayed() //check if image of person is displayed
-        personDetailScreenPersonBio?.let { composeTestRule.onNodeWithText(it).assertIsDisplayed() } //check if textView with personBio is displayed
+        composeTestRule.onNodeWithText(personDetailScreenPersonBio).assertIsDisplayed() //check if textView with personBio is displayed
         composeTestRule.onNodeWithContentDescription(backButtonDesc).performClick() //click on top nov back button
 
         //PersonListScreen

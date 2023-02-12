@@ -26,7 +26,6 @@ interface PeopleInSpaceRepositoryInterface {
 
 class PeopleInSpaceRepository : KoinComponent, PeopleInSpaceRepositoryInterface {
     private val peopleInSpaceApi: PeopleInSpaceApi by inject()
-    var personBio: String? = null
 
     @NativeCoroutineScope
     val coroutineScope: CoroutineScope = MainScope()
@@ -69,7 +68,6 @@ class PeopleInSpaceRepository : KoinComponent, PeopleInSpaceRepositoryInterface 
                         it.personImageUrl,
                         it.personBio
                     )
-                    personBio = it.personBio
                 }
             }
         } catch (e: Exception) {
