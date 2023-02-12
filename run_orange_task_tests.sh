@@ -1,3 +1,5 @@
 #!/bin/sh
 
-./gradlew connectedAndroidTest
+./gradlew connectedCheck -p app -Pandroid.testInstrumentationRunnerArguments.class=com.surrus.peopleinspace.OrangeTaskTests
+
+
