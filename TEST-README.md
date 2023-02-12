@@ -6,8 +6,9 @@ This project contains a shell script run_orange_task_tests.sh which can be used 
 
 Before you run the tests, make sure you have the following installed:
 
-* Gradle
-* Java Development Kit (JDK)
+* [Gradle](https://gradle.org/install/)
+* [Android SDK](https://developer.android.com/studio)
+* [An Android device or emulator](https://gradle.org/install/](https://developer.android.com/studio/run/emulator)
 
 ## Steps to run the tests
 
