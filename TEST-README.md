@@ -6,21 +6,25 @@ This project contains a shell script run_orange_task_tests.sh which can be used 
 
 Before you run the tests, make sure you have the following installed:
 
-* Gradle
-* Java Development Kit (JDK)
+* [Gradle](https://gradle.org/install/)
+* [Android SDK](https://developer.android.com/studio)
+* [An Android device or emulator](https://developer.android.com/studio/run/emulator)
 
 ## Steps to run the tests
 
-1. Clone the repository: git clone https://github.com/volckin/OrangeTaskPeopleInSpace.git
-2. Navigate to the cloned repository: cd OrangeTaskPeopleInSpace
-3. Make the shell script executable: chmod +x run_orange_task_tests.sh
+1. Clone the repository: `git clone https://github.com/volckin/OrangeTaskPeopleInSpace.git`
+2. Navigate to the cloned repository: `cd OrangeTaskPeopleInSpace`
+3. Make the shell script executable: `chmod +x run_orange_task_tests.sh`
 4. Run the script: `./run_orange_task_tests.sh`
 </br>
-The script will run the tests for the com.surrus.peopleinspace.OrangeTaskTests class using Gradle. The results of the tests will be displayed in the terminal.
+The script will run the tests for the com.surrus.peopleinspace.OrangeTaskTests class using Gradle.
+</br>
+The results of the tests will be displayed in the terminal or you can navigate open test result page located in: app/build/reports/androidTests/connected/com.surrus.peopleinspace.OrangeTaskTests.html
+</br>
 
-** Note: If you encounter any issues or errors while running the tests, please refer to the project's README for troubleshooting steps.
+## Original readme content:
 
-# Original readme content:
+</br>
 
 # PeopleInSpace
 
