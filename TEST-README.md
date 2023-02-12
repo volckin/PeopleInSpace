@@ -21,10 +21,10 @@ The script will run the tests for the com.surrus.peopleinspace.OrangeTaskTests c
 </br>
 The results of the tests will be displayed in the terminal or you can navigate open test result page located in: app/build/reports/androidTests/connected/com.surrus.peopleinspace.OrangeTaskTests.html
 </br>
-</br>
-** Note: If you encounter any issues or errors while running the tests, please refer to the project's README for troubleshooting steps.
 
-# Original readme content:
+## Original readme content:
+
+</br>
 
 # PeopleInSpace
 
