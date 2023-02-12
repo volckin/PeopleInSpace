@@ -13,9 +13,11 @@ Before you run the tests, make sure you have the following installed:
 ## Steps to run the tests
 
 1. Clone the repository: `git clone https://github.com/volckin/PeopleInSpace.git`
-2. Navigate to the cloned repository: `cd PeopleInSpace`
-3. Make the shell script executable: `chmod +x run_orange_task_tests.sh`
-4. Run the script: `./run_orange_task_tests.sh`
+2. Open project in AndroidStudio
+3. wait for gradle to be build
+4. Open Terminal in Android studio
+5. Make the shell script executable: `chmod +x run_orange_task_tests.sh`
+6. Run the script: `./run_orange_task_tests.sh`
 </br>
 The script will run the tests for the com.surrus.peopleinspace.OrangeTaskTests class using Gradle.
 </br>
