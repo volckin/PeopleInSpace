@@ -17,6 +17,8 @@ Before you run the tests, make sure you have the following installed:
 3. wait for gradle to be build
 4. Open Terminal in Android studio
 5. Run the script: `./run_orange_task_tests.sh`
+</br>
+</br>
 **Note** If you need Make the shell script executable: `chmod +x run_orange_task_tests.sh`
 </br>
 The script will run the tests for the com.surrus.peopleinspace.OrangeTaskTests class using Gradle.
