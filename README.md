@@ -23,4 +23,4 @@ Before you run the tests, make sure you have the following installed:
 </br>
 The script will run the tests for the com.surrus.peopleinspace.OrangeTaskTests class using Gradle.
 </br>
-The results of the tests will be displayed in the terminal or you can navigate open test result page located in: app/build/reports/androidTests/connected/com.surrus.peopleinspace.OrangeTaskTests.html
+The results of the tests will be displayed in the terminal or you can open test result html page located in: app/build/reports/androidTests/connected/com.surrus.peopleinspace.OrangeTaskTests.html
